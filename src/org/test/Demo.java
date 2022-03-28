@@ -19,6 +19,9 @@ public class Demo {
 		password.sendKeys("Demo123");
 		WebElement loginBtn = driver.findElement(By.xpath("//input[@type='submit']"));
 		loginBtn.click();
+		
+		System.out.println("Basha");
+		System.out.println("Suchithra");
 	}
-
+	
 }
